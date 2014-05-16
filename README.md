@@ -8,7 +8,7 @@ http://www.imdb.com/search/title?at=0&sort=num_votes,desc&start=1&title_type=fea
 To run it, run:
 
 ```
-scrapy -o movies.csv -t csv
+scrapy IMDBCrawler -o movies.csv -t csv
 ```
 
 This will start the Spider, and push the output into a csv file and format it as a CSV.
