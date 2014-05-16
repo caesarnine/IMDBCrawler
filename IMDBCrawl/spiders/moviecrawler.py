@@ -4,7 +4,6 @@ from scrapy.selector import HtmlXPathSelector
 from IMDBCrawl.items import ImdbcrawlItem
 from scrapy.http import Request
 
-urlseen = set()
 
 class MySpider(CrawlSpider):
     name = "IMDBCrawler"
